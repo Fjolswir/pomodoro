@@ -14,6 +14,11 @@
 		845510481F22089100DFB6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845510461F22089100DFB6FC /* LaunchScreen.storyboard */; };
 		845510531F22089100DFB6FC /* Pomodoro_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845510521F22089100DFB6FC /* Pomodoro_AppTests.swift */; };
 		8455105E1F22089100DFB6FC /* Pomodoro_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455105D1F22089100DFB6FC /* Pomodoro_AppUITests.swift */; };
+		8455106C1F220C4700DFB6FC /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455106B1F220C4700DFB6FC /* Group.png */; };
+		8455106E1F220C7300DFB6FC /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455106D1F220C7300DFB6FC /* Green.png */; };
+		845510701F220CB000DFB6FC /* Path 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8455106F1F220CB000DFB6FC /* Path 2.png */; };
+		845510721F220CBC00DFB6FC /* Green2.png in Resources */ = {isa = PBXBuildFile; fileRef = 845510711F220CBC00DFB6FC /* Green2.png */; };
+		845674F21F24F6DB00EA5BB0 /* Green1.png in Resources */ = {isa = PBXBuildFile; fileRef = 845674F11F24F6DB00EA5BB0 /* Green1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		845510591F22089100DFB6FC /* Pomodoro AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pomodoro AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455105D1F22089100DFB6FC /* Pomodoro_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro_AppUITests.swift; sourceTree = "<group>"; };
 		8455105F1F22089200DFB6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455106B1F220C4700DFB6FC /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../Downloads/Archiwum/Group.png; sourceTree = "<group>"; };
+		8455106D1F220C7300DFB6FC /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = ../../../Downloads/Archiwum/Green.png; sourceTree = "<group>"; };
+		8455106F1F220CB000DFB6FC /* Path 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Path 2.png"; path = "../../../Downloads/Archiwum/Path 2.png"; sourceTree = "<group>"; };
+		845510711F220CBC00DFB6FC /* Green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green2.png; path = ../../../Downloads/Archiwum/Green2.png; sourceTree = "<group>"; };
+		845674F11F24F6DB00EA5BB0 /* Green1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green1.png; path = ../../../Downloads/Archiwum/Green1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 				8455103F1F22089100DFB6FC /* ViewController.swift */,
 				845510411F22089100DFB6FC /* Main.storyboard */,
 				845510441F22089100DFB6FC /* Assets.xcassets */,
+				8455106B1F220C4700DFB6FC /* Group.png */,
+				8455106D1F220C7300DFB6FC /* Green.png */,
+				845674F11F24F6DB00EA5BB0 /* Green1.png */,
+				845510711F220CBC00DFB6FC /* Green2.png */,
+				8455106F1F220CB000DFB6FC /* Path 2.png */,
 				845510461F22089100DFB6FC /* LaunchScreen.storyboard */,
 				845510491F22089100DFB6FC /* Info.plist */,
 			);
@@ -233,8 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				845510481F22089100DFB6FC /* LaunchScreen.storyboard in Resources */,
+				8455106C1F220C4700DFB6FC /* Group.png in Resources */,
+				845510721F220CBC00DFB6FC /* Green2.png in Resources */,
+				845510701F220CB000DFB6FC /* Path 2.png in Resources */,
 				845510451F22089100DFB6FC /* Assets.xcassets in Resources */,
 				845510431F22089100DFB6FC /* Main.storyboard in Resources */,
+				8455106E1F220C7300DFB6FC /* Green.png in Resources */,
+				845674F21F24F6DB00EA5BB0 /* Green1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +523,7 @@
 				845510641F22089200DFB6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845510651F22089200DFB6FC /* Build configuration list for PBXNativeTarget "Pomodoro AppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				845510671F22089200DFB6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845510681F22089200DFB6FC /* Build configuration list for PBXNativeTarget "Pomodoro AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +541,7 @@
 				8455106A1F22089200DFB6FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
